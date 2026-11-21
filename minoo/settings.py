@@ -30,9 +30,11 @@ ALLOWED_HOSTS = [
     "localhost",
     "customs-quit-sloppy.ngrok-free.dev",
     ".trycloudflare.com",
+    ".onrender.com",
 ]
 CSRF_TRUSTED_ORIGINS = [
     "https://*.trycloudflare.com",
+    "https://*.onrender.com",
 ]
 
 # Application definition
